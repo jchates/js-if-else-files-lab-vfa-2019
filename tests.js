@@ -6,7 +6,8 @@ if (index.name === "Susan") {
     console.log("Expected: Susan, Received: "+index.name)
 }
 
-
+var index = require("./index.js")
+  console.log(index.name)
 
 if (index.height === 70) {
     console.log("The height is correct")
